@@ -22,7 +22,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .video-bg {
@@ -31,7 +30,6 @@
     top: 0%;
     min-height: 60%;
     opacity: 0.4;
-    transform: translate(50% 50%);
 }
 
 /* =v= Navbar =v= */
@@ -81,7 +79,7 @@ nav, img {
 
 
 
-@media  (max-aspect-ratio: 8/9) {
+@media screen and (max-width: 580px) {
 
   .nav {
     position: relative;
