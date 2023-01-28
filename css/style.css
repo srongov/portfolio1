@@ -35,6 +35,7 @@
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    
 }
 
 .nav {
@@ -46,6 +47,7 @@
 .dropdown-menu {
     display: flex;
     gap: 2rem;
+    z-index: 1;
 }
 
 nav, img {
