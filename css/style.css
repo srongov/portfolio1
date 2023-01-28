@@ -11,6 +11,10 @@
     --text: #03001C;
 }
 
+.container {
+    position: relative;
+}
+
 /* =v= NavBar =v= */
 
 .navbar {
@@ -38,6 +42,14 @@
 img {
     visibility: hidden;
 }
+
+
+
+
+
+
+
+
 
 
 
