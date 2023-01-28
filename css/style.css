@@ -13,19 +13,25 @@
 
 /* =v= video =v= */
 
+.container {
+    position: relative;
+}
+
 .video {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .video-bg {
     position: absolute;
-    max-width: 100%;
+    min-width: 100%;
     top: 0%;
-    max-height: 60%;
+    min-height: 60%;
     opacity: 0.4;
+    transform: translate(50% 50%);
 }
 
 /* =v= Navbar =v= */
@@ -75,7 +81,7 @@ nav, img {
 
 
 
-@media screen and (max-width: 580px) {
+@media  (max-aspect-ratio: 8/9) {
 
   .nav {
     position: relative;
@@ -98,9 +104,8 @@ nav, img {
 
   nav, img {
       visibility: visible;
-      margin-left: 50px;
+      margin-left: 30px;
       position: absolute;
   }
-
 }
 
