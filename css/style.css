@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --section-bg: #def4fb;
+    --text: #03001C;
+}
+
+/* =v= NavBar =v= */
+
