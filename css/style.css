@@ -147,11 +147,15 @@
     #mypic {
         width: 100px;
         height: 100px;
-        bottom: 170px;
+        bottom: 100px;
         position: relative;
-        
     }
 
+    /* =v= intro-content =v= */
+
+    .intro-content {
+        margin-bottom: 270px;
+    }
 
 
   }
