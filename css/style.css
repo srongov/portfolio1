@@ -82,7 +82,13 @@
         position: absolute;
         z-index: 1;
     }
-
+    
+    .video-bg {
+        max-width: 800px;
+        max-height: 800px;
+        
+    }
+    
     .menu {
         visibility: visible;
     }
@@ -94,6 +100,18 @@
         position: absolute;
         right: 100px;
     }
+
+    /* =v= intro =v= */
+
+    #mypic {
+        width: 100px;
+        height: 100px;
+        bottom: 200px;
+        position: relative;
+        bottom: 300px;
+    }
+
+
 
   }
 
