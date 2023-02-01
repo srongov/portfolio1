@@ -4,6 +4,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    color: black;
 }
 
 /* =v= Video section =v= */
@@ -97,11 +98,13 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 30px;
+    position: relative;
 }
 
 #github, #linkedin {
     width: 30px;
     height: 30px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 996px) {
@@ -147,7 +150,7 @@
     #mypic {
         width: 150px;
         height: 150px;
-        bottom: 40px;
+        top: 30gpx;
         position: relative;
         display: fle;
         justify-content: center;
