@@ -16,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     overflow: hidden;
 }
 
@@ -24,7 +23,8 @@
     position: absolute;
     width: 100%;
     top: 0;
-    opacity: 0.4;
+    opacity: 0.2;
+    
 }
 
 /* =v= NavBar section =v= */
@@ -43,7 +43,7 @@
     display: flex;
 }
 
-nav, img {
+.menu {
     visibility: hidden;
 }
 
@@ -66,7 +66,7 @@ nav, img {
         z-index: 1;
     }
 
-    .nav, img {
+    .menu {
         visibility: visible;
     }
 
@@ -77,4 +77,16 @@ nav, img {
         position: absolute;
         right: 100px;
     }
+
   }
+
+  /* =v= Intro =v= */
+
+#mypic {
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    bottom: 150px;
+}
