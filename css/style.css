@@ -54,6 +54,23 @@
 }
 
 
+  /* =v= Intro =v= */
+
+  #mypic {
+    position: relative;
+    display: flex;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    bottom: 200px;
+    border: 5px solid #E1D9D1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+
+
 @media screen and (max-width: 580px) {
     .nav {
         position: relative;
@@ -80,13 +97,3 @@
 
   }
 
-  /* =v= Intro =v= */
-
-#mypic {
-    position: relative;
-    display: flex;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    bottom: 150px;
-}
