@@ -5,6 +5,15 @@
     list-style: none;
     text-decoration: none;
     color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Gudea', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Michroma', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Syloti Nagri', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Ropa Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* =v= Video section =v= */
@@ -108,7 +117,65 @@
     
 }
 
+/* =v= About =v= */
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+}
+
+.border {
+    border-left: 1px solid black;
+    height: 200px;
+}
+
+.about-content {
+    width: 400px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 25px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 35px;
+}
+
+.email, .address, .phone {
+    display: flex;
+    gap: 2rem;
+}
+
 /* =v= Skill =v= */
+
+.skill {
+    background-color: #F9F9F9;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 996px) {
     .nav {
@@ -164,5 +231,12 @@
     .intro-content {
         margin-bottom: 320px;
     }
+
+    /* =v= About =v= */
+
+    .about {
+        margin-bottom: 450px;
+    }
+
   }
 
