@@ -267,6 +267,12 @@ span {
 .address {
     gap: 2rem;
 }
+
+/* =v= skill =v= */
+
+.skill {
+    height: 100px;
+}
   
 }
 
@@ -300,6 +306,10 @@ span {
 
     #zip {
         margin-left: 90px;
+    }
+
+    .skill {
+        height: 80px;
     }
     
   }
