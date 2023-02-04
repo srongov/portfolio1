@@ -4,7 +4,6 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    color: black;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -67,6 +66,9 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+#intro-h3, #intro-h1, #intro-h2 {
+    letter-spacing: 5px;
+}
 
 
 
@@ -130,11 +132,28 @@
 
   }
 
-/* 
 
-  @media screen and (max-width: 1491px) {
-      .video {
-          min-height: 80vh;
+
+
+  @media screen and (max-width: 760px) {
+    #mypic {
+        width: 150px;
+        height: 150px;
+    }
+
+    #intro-h2, #intro-h1, #intro-h3 {
+      font-size: 10px;
+  }
+
+}
+
+  @media screen and (max-width: 476px) {
+      #mypic {
+          width: 80px;
+          height: 80px;
       }
 
-  } */
+      #intro-h2, #intro-h1, #intro-h3 {
+          font-size: 9px;
+      }
+  }
