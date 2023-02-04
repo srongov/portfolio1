@@ -5,15 +5,7 @@
     list-style: none;
     text-decoration: none;
     color: black;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-font-family: 'Gudea', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Michroma', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Sans Syloti Nagri', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Ropa Sans', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* =v= Video section =v= */
@@ -56,6 +48,36 @@ font-family: 'Source Sans Pro', sans-serif;
 
   /* =v= Intro =v= */
 
+.intro {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 100px;
+    gap: 3rem;
+}
+
+#mypic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #F5EDE5;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -95,30 +117,15 @@ font-family: 'Source Sans Pro', sans-serif;
     .navbar {
         display: flex;
         align-items: flex-start;
+        border: solid;
     }
 
     /* =v= intro =v= */
 
-    #mypic {
-        width: 150px;
-        height: 150px;
-        top: 30px;
-        position: relative;
-        display: fle;
-        justify-content: center;
-    }
-
-    /* =v= intro-content =v= */
-
-    .intro-content {
-        margin-bottom: 320px;
-    }
-
-    /* =v= About =v= */
-    
-    .about {
+    .intro {
+        gap: 1rem;
         position: absolute;
-        
+        top: 20px;
     }
 
   }
