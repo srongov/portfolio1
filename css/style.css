@@ -93,6 +93,66 @@
     margin-top: 20px;
 }
 
+/* =v= about information =v= */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    margin-top: 20px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-content {
+    width: 60%;
+    line-height: 1.7;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.border-line {
+    border-left: 1px solid black;
+    height: 150px;
+}
+
+/* =v= about address =v= */
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    width: 60%;
+}
+
+.info-address, .phone, .email {
+    display: flex;
+    gap: 2rem;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 996px) {
     .nav {
@@ -130,7 +190,6 @@
     .navbar {
         display: flex;
         align-items: flex-start;
-        border: solid;
     }
 
     /* =v= intro =v= */
@@ -140,6 +199,7 @@
         position: absolute;
         top: 20px;
     }
+
 
   }
 
@@ -157,6 +217,35 @@
       font-size: 10px;
   }
 
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+  .border {
+      display: flex;
+      justify-content: center;
+  }
+
+  .border-line {
+    border:   solid black;
+    height: 1px;
+    width: 30%;
+    border: solid;
+}
+
+.info-address, .phone, .email {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+}
+
+.address {
+    gap: 2rem;
+}
+  
 }
 
   @media screen and (max-width: 476px) {
@@ -175,6 +264,8 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 50%;
     }
+
+    /* =v= about-me =v= */
     
   }
  
