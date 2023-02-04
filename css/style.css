@@ -34,7 +34,7 @@
     gap: 2rem;
 }
 
-.menu {
+.menu  {
     visibility: hidden;
 }
 
@@ -70,17 +70,28 @@
     letter-spacing: 5px;
 }
 
+/* =v= social =v= */
+
+.social {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
 
 
+#github, #linkedin {
+    width: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+}
 
+/* =v= About-me =v= */
 
-
-
-
-
-
-
-
+.about-header {
+    text-align: center;
+    margin-top: 20px;
+}
 
 
 @media screen and (max-width: 996px) {
@@ -135,6 +146,7 @@
 
 
 
+
   @media screen and (max-width: 760px) {
     #mypic {
         width: 150px;
@@ -157,5 +169,14 @@
       #intro-h2, #intro-h1, #intro-h3 {
           font-size: 9px;
       }
+
+      #github, #linkedin {
+        width: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 50%;
+    }
+    
   }
  
+
+  
