@@ -140,10 +140,23 @@ span {
 }
 
 
+.skill {
+    background-color: #EFF5F5;
+    height: 160px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
 
-
-
-
+#skill-image {
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 50%;
+}
 
 
 
@@ -198,6 +211,15 @@ span {
         gap: 1rem;
         position: absolute;
         top: 20px;
+    }
+
+    #skill-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skill {
+        gap: 2rem;
     }
 
 
@@ -265,7 +287,20 @@ span {
         border-radius: 50%;
     }
 
+    .skill {
+        gap: 1rem;
+    }
+
+    #skill-image {
+        width: 30px;
+        height: 30px;
+    }
+
     /* =v= about-me =v= */
+
+    #zip {
+        margin-left: 90px;
+    }
     
   }
  
