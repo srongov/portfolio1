@@ -19,22 +19,15 @@ font-family: 'Source Sans Pro', sans-serif;
 /* =v= Video section =v= */
 
 .video {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    padding: 0 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    border: solid;
+    max-height: auto;
 }
 
 .video-bg {
-    position: absolute;
+    position: fixed;
+    z-index: -1;
     width: 100%;
-    top: 0;
-    opacity: 0.2;
-    
+    min-height: auto;
 }
 
 /* =v= NavBar section =v= */
@@ -92,13 +85,10 @@ font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 120px;
 }
 
-#intro-h1 {
+#intro-h1, #intro-h4 {
     margin-top: 20px;
 }
 
-#intro-h4 {
-    margin-top: 20px;
-}
 
 /* =v= intro-ss =v= */
 
@@ -114,65 +104,15 @@ font-family: 'Source Sans Pro', sans-serif;
     width: 30px;
     height: 30px;
     z-index: 1;
-    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 50%;
 }
 
 /* =v= About =v= */
 
 .about {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    position: absolute;
 }
-
-.about h1 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.about-me {
-    display: grid;
-    grid-template-columns: 1fr 30px 1fr;
-}
-
-.border {
-    border-left: 1px solid black;
-    height: 200px;
-}
-
-.about-content {
-    width: 400px;
-    text-align: center;
-    justify-self: center;
-    align-self: center;
-    font-size: 25px;
-}
-
-.information {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    margin-left: 200px;
-    margin-bottom: 35px;
-}
-
-.email, .address, .phone {
-    display: flex;
-    gap: 2rem;
-}
-
-/* =v= Skill =v= */
-
-.skill {
-    background-color: #F9F9F9;
-    height: 300px;
-    margin-top: 20px;
-}
-
-
-
 
 
 
@@ -220,7 +160,7 @@ font-family: 'Source Sans Pro', sans-serif;
     #mypic {
         width: 150px;
         height: 150px;
-        top: 30gpx;
+        top: 30px;
         position: relative;
         display: fle;
         justify-content: center;
@@ -233,10 +173,19 @@ font-family: 'Source Sans Pro', sans-serif;
     }
 
     /* =v= About =v= */
-
+    
     .about {
-        margin-bottom: 450px;
+        position: absolute;
+        
     }
 
   }
 
+/* 
+
+  @media screen and (max-width: 1491px) {
+      .video {
+          min-height: 80vh;
+      }
+
+  } */
