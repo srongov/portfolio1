@@ -158,11 +158,122 @@ span {
     border-radius: 50%;
 }
 
+/* =v= Project 1 =v= */
+
+.project-1 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cookbook {
+    width: 600px;
+    border-radius: 10px;
+    
+}
+
+.project-image{
+    display: flex;
+    justify-content: center;
+}
+
+.project-content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #EFF5F5;
+}
+
+.project1-desc {
+    width: 60%;
+    text-align: center;
+}
+
+/* =v= project link =v= */
+
+.btn {
+    background-color: #7286D3;
+    border: none;
+    color: white;
+    padding: 7px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .project-title h3 {
+    letter-spacing: 5px;
+  }
+ 
+
+ /* =v= project 2 =v= */
+
+.project-2 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+#drum {
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.project2-image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project2-content {
+    margin-top: 20px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EFF5F5;
+}
+
+.project2-desc {
+    width: 60%;
+    text-align: center;
+}
+
+/* =v= project link =v= */
 
 
 
+.btn {
+    background-color: #7286D3;
+    border: none;
+    color: white;
+    padding: 7px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 
-
+  .project2-title h3 {
+    letter-spacing: 5px;
+  }
+ 
 
 
 
@@ -221,7 +332,33 @@ span {
     .skill {
         gap: 2rem;
     }
+    
+    /* =v= project =v= */
 
+    .project-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .project-title {
+        margin-top: 10px;
+    }
+
+    /* =v= project 2 =v= */
+
+    .project-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .project2-title {
+        margin-top: 10px;
+    }
+  
+    .project2-image {
+        grid-area: 1 / 1;
+    }
+    
 
   }
 
@@ -273,8 +410,33 @@ span {
 .skill {
     height: 100px;
 }
+
+/* =v= project 1 =v= */
+
+#cookbook {
+    width: 400px;
+    height: 400px;
+}
+
+#drum {
+    width: 400px;
+    height: 400px;
+}
+
+.project-content, .project12-content {
+    margin-top: 20px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EFF5F5;
+}
+
   
 }
+
+
 
   @media screen and (max-width: 476px) {
       #mypic {
@@ -310,6 +472,28 @@ span {
 
     .skill {
         height: 80px;
+    }
+
+    /* =v= project 1 =v= */
+
+    .project-title {
+        margin-top: 10px;
+    }
+
+   #cookbook {
+       width: 300px;
+       height: 300px;
+    
+    }
+
+    .project2-title {
+        margin-top: 10px;
+    }
+    
+   #drum {
+       width: 300px;
+       height: 300px;
+    
     }
     
   }
