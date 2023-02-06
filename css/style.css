@@ -169,6 +169,7 @@ span {
 #cookbook {
     width: 600px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 
@@ -227,12 +228,14 @@ span {
     width: 600px;
     border-radius: 10px;
     margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 
 .project2-image{
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -286,6 +289,38 @@ span {
       width: 30px;
       height: 20px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+
+  /* =v= edcuation =v= */
+
+  .education {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+  }
+
+  #certificate {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 80%;
+  }
+
+
+  .footer {
+    background-color: #EFF5F5;
+    height: 90px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #github-footer, #linkedin-footer {
+      width: 30px;
+      height: 30px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 50%;
   }
 
 
@@ -375,9 +410,6 @@ span {
     }
 
   }
-
-
-
 
 
   @media screen and (max-width: 760px) {
