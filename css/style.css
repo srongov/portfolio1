@@ -274,8 +274,19 @@ span {
     letter-spacing: 5px;
   }
  
+  /* =v= demo and deploy =v= */
 
+  #demo {
+      width: 30px;
+      height: 20px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 
+  #githublink {
+      width: 30px;
+      height: 20px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 
 
 @media screen and (max-width: 996px) {
