@@ -4,5 +4,4 @@
 
 # Demo
 
-https://github.com/srongov/portfolio1/edit/main/README.md
-
+https://srongov.github.io/portfolio1/
